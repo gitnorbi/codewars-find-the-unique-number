@@ -17,8 +17,9 @@ function findUniq(arr) {
               }
               
           });
+
           document.querySelector("#result").textContent=`The number which is different 
-          from the others: ${theNotEqualNumber}`;
+          from the others is: ${theNotEqualNumber} \n in ${arr}`;
      return theNotEqualNumber;
   
     }
